@@ -35,11 +35,12 @@
       </div>
     </div>
 
+    我在这里增加了1.0的内容
     <div class="software-version" v-if="isShowVer">
       <p class="version-title"><span>软件版本：</span></p>
       <el-table :data="versionData" stripexborder size="small">
-        <el-table-column prop="appId" label="软件模块编号" min-width="120"></el-table-column>
-        <el-table-column prop="appName" label="软件模块名称" min-width="180"></el-table-column>
+        <!-- <el-table-column prop="appId" label="软件模块编号" min-width="120"></el-table-column> -->
+        <!-- <el-table-column prop="appName" label="软件模块名称" min-width="180"></el-table-column> -->
         <el-table-column prop="version" label="版本号" min-width="180">
           <template slot-scope="scope">
             <span>{{scope.row.type === 2 && scope.row.versionDesc ? scope.row.versionDesc.targetVersion : scope.row.version}}</span>

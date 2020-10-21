@@ -12,8 +12,8 @@
         <p><span>IP电话号码：</span><span>{{dataInfo.ipPhone}}</span></p>
         <p><span>其他联系方式：</span><span>{{dataInfo.otherContact}}</span></p>
         <p><span>建站时间：</span><span>{{dataInfo.createTime}}</span></p>
-        <!-- <p><span>x投入服务时间：</span><span>{{dataInfo.serviceTime}}</span></p> -->
-        <!-- <p><span>x解除服务时间：</span><span>{{dataInfo.removeTime}}</span></p> -->
+        <p><span>投入服务时间：</span><span>{{dataInfo.serviceTime}}</span></p>
+        <p><span>解除服务时间：</span><span>{{dataInfo.removeTime}}</span></p>
       </div>
     </div>
     <div class="split-info-box">

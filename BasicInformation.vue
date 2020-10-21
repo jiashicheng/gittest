@@ -52,7 +52,7 @@
     我修改了1.0的bug
   </div>
 </template>
-
+1.0后面新增加的需求哦
 <script>
 // import { FisherEdgeFindBySn, GetAppInfo } from '../../../../utils/urlApi.js';
 // import { setTime } from '../../../../utils/public.js';
@@ -79,8 +79,9 @@
       deep: true
     }
   },
-  mounted: function() {
-    this.sn = this.$route.query.sn;
+  asdf 1.0后面新增加的需求哦2222222222222222222222
+  mounted: function(1.0第三次增加的需求哦) {
+    this.sn = this.$route.query.nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn;
     this.getDataInfo();
     this.getVersion();
   },

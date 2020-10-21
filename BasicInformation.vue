@@ -48,13 +48,15 @@
         </el-table-column>
       </el-table>
     </div>
+
+    我修改了1.0的bug
   </div>
 </template>
 
 <script>
-import { FisherEdgeFindBySn, GetAppInfo } from '../../../../utils/urlApi.js';
-import { setTime } from '../../../../utils/public.js';
-export default {
+// import { FisherEdgeFindBySn, GetAppInfo } from '../../../../utils/urlApi.js';
+// import { setTime } from '../../../../utils/public.js';
+// export default {
   name: "BasicInformation",
   components: {},
   props: {
